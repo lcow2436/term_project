@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const checkoutButton = document.getElementById('checkout-button');
     const resetButton = document.getElementById('reset-button');
 
-    const TAX_RATE = 0.13; // 13% tax rate
+    const TAX_RATE = 0.13; 
 
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
     let products = [];
@@ -89,14 +89,14 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         // Simulate checkout process; here we just clear the cart and show an alert
-        alert("Checkout successful! Thank you for your purchase.");
+        alert("Checkout successful!!");
         cart = [];
         localStorage.removeItem('cart');
         updateCart();
     }
 
     function resetCart() {
-        if (confirm("Are you sure you want to reset the cart? This action cannot be undone.")) {
+        if (confirm("Are you sure you want to clear the cart? This action cannot be undone.")) {
             cart = [];
             localStorage.removeItem('cart');
             updateCart();
