@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Professional Chef's Knife Sharpener",
+        "price": 29.99,
+        "image": "images/special1.webp"
+    },
+    {
+        "id": 2,
+        "name": "Diamond-Edge Electric Sharpener",
+        "price": 49.99,
+        "image": "images/special2.webp"
+    },
+    {
+        "id": 3,
+        "name": "Ultimate Precision Knife Sharpener",
+        "price": 39.99,
+        "image": "images/product_of_the_week.webp"
+    }
+]
